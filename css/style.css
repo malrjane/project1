@@ -604,10 +604,16 @@ a,
   font-size: 15.697px;
   font-weight: bold;
   display: block;
+  text-decoration: line-through;
 }
 .shop-price:nth-of-type(2) {
   font-size: 21px;
-  text-decoration: line-through;
+  text-decoration: none;
+}
+
+.shop-price-alone {
+  text-decoration: none;
+  font-size: 21px;
 }
 
 .buy-btn {
@@ -732,7 +738,6 @@ a,
 
 .popup-form {
   width: 390px;
-  height: 588px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #fff;
@@ -789,7 +794,7 @@ a,
   background-size: 13px;
   background-repeat: no-repeat;
   right: 30px;
-  top: 148px;
+  top: 157px;
   width: 30px;
   height: 22px;
   background-color: #f4f7f6;
@@ -983,7 +988,6 @@ textarea.form_inside {
   }
   .popup-form {
     width: 390px;
-    height: 595px;
     padding: 55px 28px;
   }
   .popup-header {
@@ -1199,7 +1203,6 @@ textarea.form_inside {
   }
   .popup-form {
     width: 330px;
-    height: 547px;
     padding: 24px 27px 30px 24px;
   }
   .close-btn {
@@ -1224,7 +1227,7 @@ textarea.form_inside {
   }
   .form_inside::after {
     right: 42px;
-    top: 125px;
+    top: 134px;
     width: 12px;
   }
   .form-paragraph {
